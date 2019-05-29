@@ -13,12 +13,25 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        
+        gameObject.transform.position = currentLocation.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        newLocationList.AddRange(currentLocation.nextLocationsToTravelTo);
+
         
+
     }
+
+
+    void MovePlayer()
+    {
+
+
+
+    }
+
+
 }
