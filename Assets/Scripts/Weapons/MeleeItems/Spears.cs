@@ -2,12 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class LocalSupplier : NPCharacter
+public class Spears : MeleeWeapons
 {
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {

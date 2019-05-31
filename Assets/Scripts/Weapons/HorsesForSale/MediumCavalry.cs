@@ -1,13 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public abstract class LocalSupplier : NPCharacter
+﻿
+public class MediumCavalry : Horses
 {
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
